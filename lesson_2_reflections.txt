@@ -32,3 +32,14 @@ could be safely removed without affecting what's
 in the working directory.
 -----------------
 
+How can you use the staging area to make sure you 
+have one commit per logical change?
+
+I can do so by running a "git diff".  This 
+command compares what's in my working directory 
+and what's in the staging area.  By viewing the 
+differences, I can decide if I have made enough 
+of a logical change to warrant committing to the 
+actual repository.
+--------------
+
