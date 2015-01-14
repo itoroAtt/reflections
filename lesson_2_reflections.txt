@@ -24,6 +24,10 @@ files are added, before they are committed. The
 latter, on the other hand, is the current directory 
 where one will be working from and this directory 
 may or may not even be a added to a repository yet.
+The staging area is different from the repository 
+in the sense that the latter contains all the files 
+that comprise a repository whereas the former only 
+contains files that you want added to the repository.
 
 The concept of a staging area offers value as an 
 intermediary, a sandbox so to speak, that holds 
