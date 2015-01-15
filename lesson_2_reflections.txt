@@ -74,3 +74,33 @@ the "layout" of the code base and know the history
 of the branch.
 --------------
 
+What is the result of merging two branches together? 
+Why do we represent it in the diagram the way we do?
+
+The result of merging 2 branches together is 1 
+merged branch that contains changes from both branches.  
+We represent it in the diagram the way we do to signify 
+a "union" of the 2 branches into 1 merged branch.
+-------------
+
+What are the pros and cons of Git's automatic merging vs. 
+always doing merges manually?
+
+Pros:
+- Git can make pretty good guesses as to what needs to be 
+merged
+
+- We don't have to go in to each file, examine every line and 
+determine what needs to be merged
+
+Cons:
+- If the exact same lines were modified in each file, Git 
+can't determine which line is the right one and will 
+respond with a conflict status
+
+- It is possible that the automatic merge doesn't merge properly 
+and that with no error message, the merged code is assumed to be 
+working properly.  This could could then go undetected in, say, 
+production code.  By the time the issue manifests itself, it 
+might be too late and even at that, weeding out the bug may 
+not be so easy.
