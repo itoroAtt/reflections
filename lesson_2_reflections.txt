@@ -47,3 +47,30 @@ of a logical change to warrant committing to the
 actual repository.
 --------------
 
+What are some situations when branches would be
+helpful in keeping your history organized? How would 
+branches help?
+
+Some situations when branches would be helpful and 
+how they would help:
+- I am working on a major release where a new 
+feature will be added to the current code base.  
+I don't want to mess with the master while doing this 
+but I do need to commit some bug fixes that exist 
+in production.
+
+- I am working on something experimental which may or 
+may not be accepted. In this case, there is no need 
+risking working on the master.   can work on a branch 
+which can be easily deleted afterwards
+---------------
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams help me visualize the branch structure by 
+providing a graphical representation of the "tree" 
+structure. By so doing, I can better understand 
+the "layout" of the code base and know the history 
+of the branch.
+--------------
+
