@@ -24,3 +24,25 @@ if pulling were left to Git to do automatically, there is
 a good chance that such pulling could happen in the middle 
 of an edit and this could result in incomplete files, and 
 illogical commits
+
+---------------------------
+Describe the differences between forks, clones, and branches. 
+When would you use one instead of another?
+
+A fork is like a clone of a repository, only that applies to 
+github only.  I would use forks when I need to clone a 
+repository only on github.
+
+A clone is a copy of a repository that allows someone to 
+copy a repository to one's local computer, for instances.  
+I would use a clone when I either need to get a copy of a 
+repository from github or locally, from another location on 
+my computer.
+
+A branch is a copy of a repository at a particular point in 
+time, created to enable someone work on it until such a time 
+that it is ready to be merged back to the master.  I would 
+use a branch when I need to make significant changes to 
+what's on the master so that I could keep the master 
+pristine until my changes have been confirmed to work, after 
+which I would merge with the master.
