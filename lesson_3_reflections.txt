@@ -11,3 +11,16 @@ vacation.  Finally, I would want to use a local
 repository when I am working with someone else in 
 a different location, where again, they don't have 
 access to what may be on my computer.
+
+-----------------------------
+Why might you want to always pull changes manually 
+rather than having Git automatically stay up-to-date 
+with your remote repository?
+
+I might want to pull changes manually rather than having
+Git automatically stay-up-to-date with the remote repository 
+because this way, I am in control of what I pull.  Also, 
+if pulling were left to Git to do automatically, there is 
+a good chance that such pulling could happen in the middle 
+of an edit and this could result in incomplete files, and 
+illogical commits
