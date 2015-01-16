@@ -1,0 +1,13 @@
+When would you want to use a remote repository rather 
+than keeping all your work local?
+
+I would want to use a remote repository rather than 
+keeping all my work local in instances where I 
+work on more than one computer which means it 
+wouldn't be convenient to carry all of them around.  
+Also, I would use a remote repository when it isn't 
+convenient to take my computer with me, say, on a 
+vacation.  Finally, I would want to use a local 
+repository when I am working with someone else in 
+a different location, where again, they don't have 
+access to what may be on my computer.
