@@ -46,3 +46,12 @@ use a branch when I need to make significant changes to
 what's on the master so that I could keep the master 
 pristine until my changes have been confirmed to work, after 
 which I would merge with the master.
+
+-------------------------
+What is the benefit of having a copy of the last known state of 
+the remote stored locally?
+
+The advantage is that should we ever have to work in a place with no 
+internet access, we can rest assured that we have a local version 
+available that we can run a log, diff, and/or merge on, relative 
+to our local, master branch.
