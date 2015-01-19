@@ -1,3 +1,6 @@
+Author: Itoro Akpan-Iquot
+Date Created: December 10, 2014
+-------------------------
 How did viewing a diff between two versions of a 
 file help you see the bug that was introduced?
 
