@@ -68,3 +68,20 @@ or saving files/folders locally and appending my username
 to it.  What would be harder, relative to these more 
 inferior techniques would be obtaining the history of 
 files as well as merging of differences.
+
+-----------------------
+When would you want to make changes in a separate branch
+rather than directly in master? What benefits does each 
+approach have?
+
+I would want to make changes in a separate branch rather 
+than directly in master when I have a specific change I 
+want to make but don't want to mess with master, which 
+should be a pristine, production-level code.
+
+The advantage of making changes in a separate branch is that 
+you can do whatever you need to do without having to worry 
+about messing up what's in the master.  The advantage of 
+working directly in master is that you don't have to worry 
+about merging issues like conflicts, as well as the other 
+extra steps of creating pull requests, merging pull requests, etc.
