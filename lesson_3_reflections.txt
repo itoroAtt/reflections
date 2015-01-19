@@ -55,3 +55,16 @@ The advantage is that should we ever have to work in a place with no
 internet access, we can rest assured that we have a local version 
 available that we can run a log, diff, and/or merge on, relative 
 to our local, master branch.
+
+-----------------------
+How would you collaborate without using Git or GitHub? 
+What would be easier, and what would be harder?
+
+Off the top of my head, the only other way I could think 
+of collaborating is what used to apply before the advent 
+of version control systems - emailing files/folders back 
+and forth, uploading files/folders to a server and FTPing, 
+or saving files/folders locally and appending my username
+to it.  What would be harder, relative to these more 
+inferior techniques would be obtaining the history of 
+files as well as merging of differences.
